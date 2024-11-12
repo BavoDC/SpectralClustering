@@ -1,0 +1,13 @@
+Package: SpectralClustering
+Type: Package
+Title: Spectral clustering
+Version: 0.0.1
+Date: 2024.11.12
+Authors@R: c(person("Campo", "Bavo De Cock", role = c("aut", "cre"), email = "bavo.campo@kuleuven.be"))
+Description: Spectral clustering implementation, based on Ng et al. (2001)
+License: GPL (>= 3)
+Imports: Rcpp (>= 1.0.7), Matrix, magrittr
+Suggests: kernlab, T4cluster
+LinkingTo: Rcpp, RcppEigen
+RoxygenNote: 7.3.1
+Encoding: UTF-8

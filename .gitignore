@@ -4,7 +4,6 @@
 
 # Session Data files
 .RData
-.RDataTmp
 
 # User-specific files
 .Ruserdata
@@ -20,6 +19,9 @@
 
 # RStudio files
 .Rproj.user/
+.Rproj
+*.Rproj
+.RDataTmp
 
 # produced vignettes
 vignettes/*.html
@@ -36,14 +38,26 @@ vignettes/*.pdf
 *.utf8.md
 *.knit.md
 
-# R Environment Variables
-.Renviron
+# Submission CRAN
+cran-comments.md
+CRAN-SUBMISSION
 
-# pkgdown site
-docs/
+# Text-file with to-do
+*.txt
+inst/doc
 
-# translation temp files
-po/*~
-
-# RStudio Connect folder
+# Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
 rsconnect/
+docs
+
+# files produced from pkgdown
+*.yml
+.github/
+
+# logo package
+./inst/figures
+/doc/
+/Meta/
+
+# vignettes
+#/vignettes/
